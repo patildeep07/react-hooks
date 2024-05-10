@@ -1,0 +1,33 @@
+.NavButton {
+  padding: 1rem 1.5rem;
+
+  background-color: white;
+  border: 1px solid #4834d4;
+  box-shadow: 0 2px 5px #4834d4;
+
+  color: #4834d4;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.NavButton:hover {
+  background-color: #4834d4;
+  color: white;
+}
+
+.IntroContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
